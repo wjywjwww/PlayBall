@@ -14,6 +14,13 @@
 		1BDE52A41EE53EAE007E81E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDE52A21EE53EAE007E81E7 /* LaunchScreen.storyboard */; };
 		1BDE52AF1EE53EAE007E81E7 /* Dynamics______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52AE1EE53EAE007E81E7 /* Dynamics______Tests.swift */; };
 		1BDE52BA1EE53EAE007E81E7 /* Dynamics______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52B91EE53EAE007E81E7 /* Dynamics______UITests.swift */; };
+		1BDE52C81EE546E9007E81E7 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52C71EE546E9007E81E7 /* ViewControllerOne.swift */; };
+		1BDE52CA1EE546F4007E81E7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52C91EE546F4007E81E7 /* ViewControllerTwo.swift */; };
+		1BDE52CC1EE54700007E81E7 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52CB1EE54700007E81E7 /* ViewControllerThree.swift */; };
+		1BDE52CE1EE54709007E81E7 /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52CD1EE54709007E81E7 /* ViewControllerFour.swift */; };
+		1BDE52D01EE54713007E81E7 /* ViewControllerFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52CF1EE54713007E81E7 /* ViewControllerFive.swift */; };
+		1BDE52D21EE5471E007E81E7 /* ViewControllerSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52D11EE5471E007E81E7 /* ViewControllerSix.swift */; };
+		1BDE52D41EE547D5007E81E7 /* ConvenienceTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE52D31EE547D5007E81E7 /* ConvenienceTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		1BDE52B51EE53EAE007E81E7 /* Dynamics模拟物理效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics模拟物理效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDE52B91EE53EAE007E81E7 /* Dynamics______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dynamics______UITests.swift"; sourceTree = "<group>"; };
 		1BDE52BB1EE53EAE007E81E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDE52C71EE546E9007E81E7 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		1BDE52C91EE546F4007E81E7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		1BDE52CB1EE54700007E81E7 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		1BDE52CD1EE54709007E81E7 /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
+		1BDE52CF1EE54713007E81E7 /* ViewControllerFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFive.swift; sourceTree = "<group>"; };
+		1BDE52D11EE5471E007E81E7 /* ViewControllerSix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSix.swift; sourceTree = "<group>"; };
+		1BDE52D31EE547D5007E81E7 /* ConvenienceTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,15 @@
 		1BDE52981EE53EAE007E81E7 /* Dynamics模拟物理效果 */ = {
 			isa = PBXGroup;
 			children = (
+				1BDE52D31EE547D5007E81E7 /* ConvenienceTool.swift */,
 				1BDE52991EE53EAE007E81E7 /* AppDelegate.swift */,
 				1BDE529B1EE53EAE007E81E7 /* ViewController.swift */,
+				1BDE52C71EE546E9007E81E7 /* ViewControllerOne.swift */,
+				1BDE52C91EE546F4007E81E7 /* ViewControllerTwo.swift */,
+				1BDE52CB1EE54700007E81E7 /* ViewControllerThree.swift */,
+				1BDE52CD1EE54709007E81E7 /* ViewControllerFour.swift */,
+				1BDE52CF1EE54713007E81E7 /* ViewControllerFive.swift */,
+				1BDE52D11EE5471E007E81E7 /* ViewControllerSix.swift */,
 				1BDE529D1EE53EAE007E81E7 /* Main.storyboard */,
 				1BDE52A01EE53EAE007E81E7 /* Assets.xcassets */,
 				1BDE52A21EE53EAE007E81E7 /* LaunchScreen.storyboard */,
@@ -262,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDE52CC1EE54700007E81E7 /* ViewControllerThree.swift in Sources */,
+				1BDE52C81EE546E9007E81E7 /* ViewControllerOne.swift in Sources */,
+				1BDE52D41EE547D5007E81E7 /* ConvenienceTool.swift in Sources */,
+				1BDE52CE1EE54709007E81E7 /* ViewControllerFour.swift in Sources */,
 				1BDE529C1EE53EAE007E81E7 /* ViewController.swift in Sources */,
 				1BDE529A1EE53EAE007E81E7 /* AppDelegate.swift in Sources */,
+				1BDE52D21EE5471E007E81E7 /* ViewControllerSix.swift in Sources */,
+				1BDE52CA1EE546F4007E81E7 /* ViewControllerTwo.swift in Sources */,
+				1BDE52D01EE54713007E81E7 /* ViewControllerFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

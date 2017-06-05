@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fBo-2G-7Lr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,221 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-J8-hzU">
+                                <rect key="frame" x="164" y="164" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fXP-3i-dSo" kind="show" id="iI4-xm-Z0s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="115-Ms-pfB">
+                                <rect key="frame" x="164" y="214" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="c66-N4-c7e" kind="show" id="O9j-c3-BRf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htF-nj-nFG">
+                                <rect key="frame" x="164" y="264" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ycB-Xp-sZb" kind="show" id="NEi-fw-F1k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucy-7H-QXd">
+                                <rect key="frame" x="164" y="314" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="A1F-o1-Eqi" kind="show" id="agQ-26-Y0Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d15-hb-pO0">
+                                <rect key="frame" x="164" y="364" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JGq-rn-4JN" kind="show" id="Fbm-Sg-r8Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO5-5Y-w4c">
+                                <rect key="frame" x="164" y="414" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wrQ-xx-snw" kind="show" id="Vlr-Ea-plr"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="115-Ms-pfB" firstAttribute="top" secondItem="AYY-J8-hzU" secondAttribute="bottom" constant="20" id="49k-7c-hkT"/>
+                            <constraint firstItem="fO5-5Y-w4c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fmd-gh-9bW"/>
+                            <constraint firstItem="fO5-5Y-w4c" firstAttribute="top" secondItem="d15-hb-pO0" secondAttribute="bottom" constant="20" id="Odu-X7-yXd"/>
+                            <constraint firstItem="htF-nj-nFG" firstAttribute="top" secondItem="115-Ms-pfB" secondAttribute="bottom" constant="20" id="Ouq-Ut-Ipq"/>
+                            <constraint firstItem="AYY-J8-hzU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q2v-ZM-zCq"/>
+                            <constraint firstItem="Ucy-7H-QXd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UL1-Fs-1g8"/>
+                            <constraint firstItem="115-Ms-pfB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YZ5-kB-aA4"/>
+                            <constraint firstItem="d15-hb-pO0" firstAttribute="top" secondItem="Ucy-7H-QXd" secondAttribute="bottom" constant="20" id="bqN-kI-3QW"/>
+                            <constraint firstItem="htF-nj-nFG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eOn-3Z-lDz"/>
+                            <constraint firstItem="AYY-J8-hzU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="eZR-YK-Tf1"/>
+                            <constraint firstItem="d15-hb-pO0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pnA-67-DbR"/>
+                            <constraint firstItem="Ucy-7H-QXd" firstAttribute="top" secondItem="htF-nj-nFG" secondAttribute="bottom" constant="20" id="rWu-v4-Gq1"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Rqy-wL-VeG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="890" y="-561"/>
+        </scene>
+        <!--View Controller One-->
+        <scene sceneID="BmY-k9-Aga">
+            <objects>
+                <viewController id="fXP-3i-dSo" customClass="ViewControllerOne" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qS9-oS-XIK"/>
+                        <viewControllerLayoutGuide type="bottom" id="GiC-2R-t7M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H2n-jV-rtC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="U0c-fi-Kja"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VdH-cH-ewU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="-1236"/>
+        </scene>
+        <!--View Controller Three-->
+        <scene sceneID="sFK-LJ-gM7">
+            <objects>
+                <viewController id="ycB-Xp-sZb" customClass="ViewControllerThree" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cK1-nK-uyv"/>
+                        <viewControllerLayoutGuide type="bottom" id="BP8-IK-59F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3ll-4z-fpA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6jm-3K-5lT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FU5-wc-B2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="-562"/>
+        </scene>
+        <!--View Controller Five-->
+        <scene sceneID="4Qj-we-7NF">
+            <objects>
+                <viewController id="JGq-rn-4JN" customClass="ViewControllerFive" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vbh-kZ-mOj"/>
+                        <viewControllerLayoutGuide type="bottom" id="082-wu-fPO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cXz-q0-WEB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SaR-xL-3sa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ol-pc-ZC1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="128"/>
+        </scene>
+        <!--View Controller Six-->
+        <scene sceneID="OIv-eG-Wgy">
+            <objects>
+                <viewController id="wrQ-xx-snw" customClass="ViewControllerSix" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pNA-Iu-1cE"/>
+                        <viewControllerLayoutGuide type="bottom" id="w3c-Jg-M3u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="weX-je-88i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZaO-H0-iIJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qvf-YN-BLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="127"/>
+        </scene>
+        <!--View Controller Four-->
+        <scene sceneID="uCM-UL-J7d">
+            <objects>
+                <viewController id="A1F-o1-Eqi" customClass="ViewControllerFour" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZoC-29-ezk"/>
+                        <viewControllerLayoutGuide type="bottom" id="KcN-gd-3Zw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cPx-ra-Z7b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qZe-NI-KGv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1x3-Tx-jtj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="-562"/>
+        </scene>
+        <!--View Controller Two-->
+        <scene sceneID="H0v-yo-2PS">
+            <objects>
+                <viewController id="c66-N4-c7e" customClass="ViewControllerTwo" customModule="Dynamics模拟物理效果" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Aos-c7-fVv"/>
+                        <viewControllerLayoutGuide type="bottom" id="KAA-kn-TLp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vyV-Ne-DTc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p0o-63-GIC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="856-P9-EjU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="-1236"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="L0H-xX-8Bt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fBo-2G-7Lr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cJo-QT-uRf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="B64-rZ-T30"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J9I-ml-db1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="-560.86956521739137"/>
         </scene>
     </scenes>
 </document>
