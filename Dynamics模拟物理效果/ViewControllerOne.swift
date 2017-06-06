@@ -86,7 +86,6 @@ class ViewControllerOne: UIViewController,UICollisionBehaviorDelegate {
     func panClick(sender : UIGestureRecognizer){
         if sender.state == UIGestureRecognizerState.changed{
             let point = sender.location(in: self.view)
-            print(point)
             self.view4.center = point
             self.animator.updateItem(usingCurrentState: self.view4)
         }

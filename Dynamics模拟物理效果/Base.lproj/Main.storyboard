@@ -22,16 +22,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-J8-hzU">
-                                <rect key="frame" x="164" y="164" width="46" height="30"/>
+                                <rect key="frame" x="133" y="164" width="108" height="30"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="简单的弹球效果">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="fXP-3i-dSo" kind="show" id="iI4-xm-Z0s"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="115-Ms-pfB">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="115-Ms-pfB">
                                 <rect key="frame" x="164" y="214" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -41,7 +41,7 @@
                                     <segue destination="c66-N4-c7e" kind="show" id="O9j-c3-BRf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htF-nj-nFG">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htF-nj-nFG">
                                 <rect key="frame" x="164" y="264" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -51,7 +51,7 @@
                                     <segue destination="ycB-Xp-sZb" kind="show" id="NEi-fw-F1k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucy-7H-QXd">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucy-7H-QXd">
                                 <rect key="frame" x="164" y="314" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -61,7 +61,7 @@
                                     <segue destination="A1F-o1-Eqi" kind="show" id="agQ-26-Y0Q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d15-hb-pO0">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d15-hb-pO0">
                                 <rect key="frame" x="164" y="364" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -71,7 +71,7 @@
                                     <segue destination="JGq-rn-4JN" kind="show" id="Fbm-Sg-r8Q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO5-5Y-w4c">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO5-5Y-w4c">
                                 <rect key="frame" x="164" y="414" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
